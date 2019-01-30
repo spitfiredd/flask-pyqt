@@ -53,7 +53,8 @@ class FlaskyFrontEnd(QtWidgets.QWidget):
             QtWidgets.QMessageBox.Ok,
             QtWidgets.QMessageBox.Ok
         )
-        self.textbox.setText("")
+        self.textbox_a.setText("")
+        self.textbox_b.setText("")
 
 
 if __name__ == '__main__':
