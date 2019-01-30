@@ -6,7 +6,7 @@ app = Flask(__name__)
 api = Api(app)
 
 @api.route('/adder/<int:a>/<int:b>')
-class HelloWorld(Resource):
+class SimpleAdder(Resource):
     def get(self, a, b):
         return {'calc': a + b}
 
